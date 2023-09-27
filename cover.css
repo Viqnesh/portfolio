@@ -1,0 +1,252 @@
+/*
+ * Globals
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* Custom default button */
+.btn-light,
+.btn-light:hover,
+.btn-light:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+@font-face {
+  font-family: Roob;
+  src: url(fonts/Roobert-Regular.ttf);
+}
+.bg-cover {
+  /*background-image: url('abs.jpg');*/
+  background-color: #1F1F1F;
+  background-size: cover;
+
+}
+.strip {
+height: 550px;
+width: 450px;
+position: relative;
+}
+
+.skyblue {
+  background-color: skyblue;
+}
+.allergo {
+  background-image: url('projets/miniature-allergo.png');
+  filter: brightness(0.5);
+  height: 100%;
+}
+.vtube {
+  background-image: url('projets/miniature-vtube.png');
+  filter: brightness(0.5);
+  background-size: cover;
+  height: 100%;
+}
+.creat-title {
+  font-size: 50px ;
+}
+.creat-sub-title {
+  font-size: 50px ;
+  color: white;
+}
+.description {
+  font-size : 25px;
+  color: white;
+  text-align: initial;
+}
+.map-finder-banner {
+  background-image: url('projets/miniature-allergo.png');
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title-project {
+  z-index: 200;
+  position: absolute;
+  left: 10px;
+  right: 0px;
+  bottom: 35px;
+  color: white;
+  font-size: 35px;
+  font-family: 'Lato';
+  font-weight: 800;
+}
+.coding {
+  background-image: url('icons/coding.jpeg');
+  filter: brightness(0.5);
+  background-size: cover;
+  height: 100%;
+
+}
+.lightgreen {
+  background-color: lightgreen ;
+}
+
+.yellow {
+  background-color: yellow;
+}
+.ladder {
+  background-image: url('projets/miniature-ladder.png');
+  filter: brightness(0.5);
+  background-size: cover;
+  height: 100%;
+}
+.text-initial {
+  text-align: initial;
+}
+.title {
+  font-size: 100px ;
+  color: #fff!important;
+}
+.title-space {
+  font-size: 100px ;
+  letter-spacing: 15px;
+}
+.sub-title {
+  font-size : 70px;
+  color: #fff;
+}
+.bg-act {
+  background-image: url(grunge.jpg);
+  background-position: center;
+  border-radius: 0px!important;
+
+}
+.lato {
+  font-family: 'Roob', sans-serif;
+  font-weight: 900;
+}
+.menu {
+  font-size: xx-large;
+  color: white;
+
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.strip {
+  height: 550px;
+  width: 450px;
+  position: relative;
+  }
+  
+  .skyblue {
+    background-color: skyblue;
+  }
+  .allergo {
+    background-image: url('projets/miniature-allergo.png');
+    filter: brightness(0.5);
+    height: 100%;
+  }
+  .vtube {
+    background-image: url('projets/miniature-vtube.png');
+    filter: brightness(0.5);
+    background-size: cover;
+    height: 100%;
+  }
+  .creat-title {
+    font-size: 50px ;
+  }
+  .creat-sub-title {
+    font-size: 50px ;
+    color: white;
+  }
+  .description {
+    font-size : 25px;
+    color: white;
+    text-align: initial;
+  }
+  .map-finder-banner {
+    background-image: url('projets/miniature-allergo.png');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title-project {
+    z-index: 200;
+    position: absolute;
+    left: 10px;
+    right: 0px;
+    bottom: 35px;
+    color: white;
+    font-size: 35px;
+    font-family: 'Lato';
+    font-weight: 800;
+  }
+  .coding {
+    background-image: url('icons/coding.jpeg');
+    filter: brightness(0.5);
+    background-size: cover;
+    height: 100%;
+  
+  }
+  .lightgreen {
+    background-color: lightgreen ;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  .ladder {
+    background-image: url('projets/miniature-ladder.png');
+    filter: brightness(0.5);
+    background-size: cover;
+    height: 100%;
+  }
+
+
+
+/*
+ * Base structure
+ */
+
+body {
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  color: rgba(255, 255, 255, .5);
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.sidebar-fixed {
+  background-color: white;
+  position: fixed;
+  right: 0;
+  width: 600px;
+  margin-top: 5%;
+  font-weight: 800;
+  text-align: justify;
+}
+
+.paper {
+  background-image: url('paper.avif');
+}
